@@ -1,11 +1,6 @@
-// module.exports = {
-//   title: "go VitePress",
-//   description: "Just playing around.",
-// };
+import { defineConfig } from 'vitepress';
 
-const config = {
-  title: "1st",
-  description: "Just playing around.",
-};
-
-export default config;
+export default defineConfig({
+  title: 'This is my blog',
+  description: 'Just playing around.',
+});
